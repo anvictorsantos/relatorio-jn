@@ -67,8 +67,20 @@ button:focus,
     border-radius: 2px;
 }
 
+.bg-red {
+    background-color: #7e1819 !important;
+}
+
 .text-blue {
     color: #135689 !important;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #FFFFFF !important;
+}
+
+.w-25 {
+    width: 12%!important;
 }
 
 .form-control {
@@ -76,6 +88,34 @@ button:focus,
     border: 3px solid #135689 !important;
     border-radius: 10px;
     color: #135689 !important;
+}
+
+input[type='radio']:after {
+    width: 14px;
+    height: 14px;
+    border-radius: 17px;
+    top: -5px;
+    left: -1px;
+    position: relative;
+    background-color: #FFFFFF;
+    border: 2px solid #135689;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    top: -5px;
+    left: -1px;
+    position: relative;
+    background-color: #135689;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
 }
 
 .child {

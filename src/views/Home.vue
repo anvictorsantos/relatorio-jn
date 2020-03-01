@@ -43,7 +43,7 @@
                             <img class="img-circle elevation-2" src="@/assets/img/user.png" alt="Relatório Justiça em Números" width="40" height="40">
                         </div>
                         <div class="info">
-                            <a href="#" class="d-block">Alexander Pierce</a>
+                            <a href="#" class="d-block text-dark font-weight-bold text-uppercase">Alexander Pierce</a>
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@
                         <li class="nav-item has-treeview menu-open">
                             <a href="#" class="nav-link active">
                             <i class="nav-icon fa fa-tachometer-alt"></i>
-                            <p>
+                            <p class="text-uppercase">
                                 Starter Pages
                                 <i class="right fa fa-angle-left"></i>
                             </p>
@@ -64,13 +64,13 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link active">
                                 <i class="fa fa-circle nav-icon"></i>
-                                <p>Active Page</p>
+                                <p  class="text-uppercase">Active Page</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                 <i class="fa fa-circle nav-icon"></i>
-                                <p>Inactive Page</p>
+                                <p  class="text-uppercase">Inactive Page</p>
                                 </a>
                             </li>
                             </ul>
@@ -78,7 +78,7 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                             <i class="nav-icon fa fa-th"></i>
-                            <p>
+                            <p  class="text-uppercase">
                                 Simple Link
                                 <span class="right badge badge-danger">New</span>
                             </p>
@@ -94,86 +94,71 @@
 
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
-                <!-- Content Header (Page header) -->
-                <div class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                    <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Starter Page</h1>
-                    </div><!-- /.col -->
-                    <div class="col-sm-6">
-                        <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Starter Page</li>
-                        </ol>
-                    </div><!-- /.col -->
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
-                </div>
-                <!-- /.content-header -->
 
                 <!-- Main content -->
-                <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-                            <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content.
-                            </p>
-
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                        </div>
-
-                        <div class="card card-primary card-outline">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-                            <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content.
-                            </p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                        </div><!-- /.card -->
+                <div class="card w-75 mx-auto mt-5">
+                    <div class="card-header bg-red pl-0">
+                        <p class="text-white text-uppercase font-weight-bold pl-3 m-0">Tipo de Pesquisa</p>
+                        <p class="border-bottom w-25 m-0"></p>
                     </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-lg-6">
-                        <div class="card">
-                        <div class="card-header">
-                            <h5 class="m-0">Featured</h5>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title">Special title treatment</h6>
-
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-
-                        <div class="card card-primary card-outline">
-                        <div class="card-header">
-                            <h5 class="m-0">Featured</h5>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title">Special title treatment</h6>
-
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
+                    <div class="card-body">
+                        <form name="formLogin" id="formLogin" class="col-md-8 col-lg-4 mx-auto mt-5">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Sistema</label>
+                                <select class="form-control">
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Tipo</label>
+                                <select class="form-control">
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Grupo(s)</label>
+                                <select class="form-control">
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Período</label>
+                                <select class="form-control">
+                                </select>
+                            </div>
+                                <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Relatório</label>
+                            <div id="d-flex">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                    <label class="form-check-label text-blue" for="exampleRadios1">
+                                        Relatório
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline ">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label text-blue" for="exampleRadios2">
+                                        Analítico
+                                    </label>
+                                </div>
+                            </div>
+                                <label for="exampleFormControlInput2" class="text-blue text-uppercase font-weight-bold mt-3">Instância</label>
+                            <div id="d-flex">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                    <label class="form-check-label text-blue" for="exampleRadios3">
+                                        1ª
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                                    <label class="form-check-label text-blue" for="exampleRadios4">
+                                        2ª
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group d-sm-flex mx-auto my-3 w-100">
+                                <button type="reset" class="btn btn-border-blue text-uppercase font-weight-bold text-blue w-100 mx-auto my-2">Visualizar <i class="fa fa-book"></i></button>
+                                <button type="submit" name="enviar" value="enviar" class="btn btn-blue text-white text-uppercase font-weight-bold w-100 mx-auto my-2">Excel <i class="fa fa-download"></i></button>
+                            </div>
+                        </form>
                     </div>
-                    <!-- /.col-md-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div><!-- /.container-fluid -->
                 </div>
                 <!-- /.content -->
             </div>
@@ -184,7 +169,7 @@
             <footer class="main-footer">
                 <!-- To the right -->
                 <div class="float-right d-none d-sm-inline">
-                Anything you want
+                Justiça Militar - 1ª e 2ª Instâncias
                 </div>
                 <!-- Default to the left -->
                 <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
