@@ -53,12 +53,13 @@
                         <!-- Add icons to the links using the .nav-icon class
                             with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview menu-open">
+                            
                             <a href="#" class="nav-link active">
-                            <i class="nav-icon fa fa-tachometer-alt"></i>
-                            <p class="text-uppercase">
-                                Starter Pages
-                                <i class="right fa fa-angle-left"></i>
-                            </p>
+                                <i class="nav-icon fa fa-th"></i>
+                                <p class="text-uppercase">
+                                    Starter Pages
+                                    <i class="right fa fa-angle-left"></i>
+                                </p>
                             </a>
                             <ul class="nav nav-treeview">
                             <li class="nav-item">
@@ -67,22 +68,7 @@
                                 <p  class="text-uppercase">Active Page</p>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                <i class="fa fa-circle nav-icon"></i>
-                                <p  class="text-uppercase">Inactive Page</p>
-                                </a>
-                            </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                            <i class="nav-icon fa fa-th"></i>
-                            <p  class="text-uppercase">
-                                Simple Link
-                                <span class="right badge badge-danger">New</span>
-                            </p>
-                            </a>
                         </li>
                         </ul>
                     </nav>
@@ -102,7 +88,7 @@
                         <p class="border-bottom w-25 m-0"></p>
                     </div>
                     <div class="card-body">
-                        <form name="formLogin" id="formLogin" class="col-md-8 col-lg-4 mx-auto mt-5">
+                        <form name="formLogin" id="formLogin" class="col-md-8 col-lg-8 col-xl-4 mx-auto mt-5">
                             <div class="form-group">
                                 <label for="exampleFormControlInput1" class="text-blue text-uppercase font-weight-bold">Sistema</label>
                                 <select class="form-control">
